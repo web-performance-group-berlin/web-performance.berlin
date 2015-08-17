@@ -1,6 +1,9 @@
 # web-performance.berlin
 The official Web Performance User Group Berlin website
 
+## Proposing a talk
+TODO at description about pull request or email here...
+
 ## Development
 
 ```
