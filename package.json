@@ -1,0 +1,29 @@
+{
+  "name": "web-performance.berlin",
+  "version": "1.0.0",
+  "description": "The official web-performance user group Berlin website",
+  "main": "index.js",
+  "scripts": {
+    "css": "postcss main.css -u autoprefixer -u cssnano -o main.min.css",
+    "css:watch": "postcss main.css --watch -u autoprefixer -u cssnano -o main.min.css",
+    "dev": "npm-run-all --parallel css:watch sync",
+    "sync": "browser-sync start --files 'index.html,main.min.css' --server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-performance-group-berlin/web-performance.berlin.git"
+  },
+  "author": "stefan judis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/web-performance-group-berlin/web-performance.berlin/issues"
+  },
+  "homepage": "https://github.com/web-performance-group-berlin/web-performance.berlin#readme",
+  "devDependencies": {
+    "autoprefixer": "^5.2.0",
+    "browser-sync": "^2.8.2",
+    "cssnano": "^2.2.0",
+    "npm-run-all": "^1.2.6",
+    "postcss-cli": "^1.5.0"
+  }
+}
