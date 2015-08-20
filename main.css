@@ -44,6 +44,11 @@ svg {
   text-align : center;
 }
 
+.logo {
+  width : 9em;
+  
+}
+
 .meetupDate {
   margin: 2em;
   padding : 1em 3em;
