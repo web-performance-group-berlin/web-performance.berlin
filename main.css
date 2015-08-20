@@ -1,3 +1,92 @@
 * {
-  color : blue !important;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-weight : bold;
+  text-transform : uppercase;
+  letter-spacing : 4px;
+}
+
+p {
+  max-width :550px;
+}
+
+a {
+  color : #C64A00;
+}
+
+header {
+  text-align : center;
+}
+
+svg {
+  width : 200px;
+}
+
+.racingFlags {
+  padding : 1em;
+  text-align : center;
+}
+
+.body {
+  font-family: 'PT Sans Narrow', sans-serif;
+  max-width : 1500px;
+  color : black;
+  padding : 0 4em;
+  display : flex;
+  flex-direction : column;
+  align-content : center;
+  align-items : center;
+}
+
+.center {
+  text-align : center;
+}
+
+.meetupDate {
+  margin: 2em;
+  padding : 1em 3em;
+  letter-spacing : 4px;
+  text-transform : uppercase;
+  border: 5px solid #C64A00;
+  display: inline-block;
+}
+
+.three-cols {
+  flex-direction : column;
+  justify-content : space-between;
+  display: flex;
+}
+
+@media screen and (min-width: 60em) {
+    .three-cols {
+    flex-direction : row;
+  }
+}
+
+.speaker {
+    padding : 2em;
+    margin : 1em;
+    background : #eeeeee;
+    text-align : center;
+}
+
+.speaker h3 {
+  color : white;
+  padding : 0.5em 0;
+  text-transform : uppercase;
+  letter-spacing : 2px;
+  background-color : #C64A00;
+}
+
+.speaker-name {
+  font-style : italic;
+}
+
+footer h2 {
+  margin-top : 2em;
+  text-transform : uppercase;
+  letter-spacing : 4px;
+  border-bottom : 5px solid #C64A00;
 }
