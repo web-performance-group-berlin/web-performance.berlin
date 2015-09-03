@@ -31,7 +31,6 @@ svg {
 
 .body {
   font-family: 'PT Sans Narrow', sans-serif;
-  max-width : 1500px;
   color : black;
   padding : 0 4em;
   display : flex;
@@ -46,7 +45,11 @@ svg {
 
 .logo {
   width : 9em;
-  
+
+}
+
+.content {
+  max-width : 90em;
 }
 
 .meetupDate {
